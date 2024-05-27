@@ -1,0 +1,33 @@
+.places
+{
+    width: 100%;
+    margin-top: 25px;
+}
+.places h1
+{
+    font-size: 30px;
+}
+.places .articles_bloc
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.places .articles_bloc article
+{
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+.places .articles_bloc article h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+.articles_bloc article:last-child
+{
+    margin-left: auto;
+    margin-right: auto;
+}
